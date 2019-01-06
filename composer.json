@@ -1,0 +1,20 @@
+{
+    "name": "soapbox/datadog-trace",
+    "type": "library",
+    "description": "A helper library for DataDog APM",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Hayes"
+        }
+    ],
+    "require": {
+        "datadog/dd-trace": "^0.8.1",
+        "opentracing/opentracing": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "SoapBox\\DataDogTrace\\": "src/"
+        }
+    }
+}
