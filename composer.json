@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "datadog/dd-trace": "^0.8.1",
+        "datadog/dd-trace": "0.9.0",
         "opentracing/opentracing": "@dev"
     },
     "autoload": {
